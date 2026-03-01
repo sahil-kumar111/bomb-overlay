@@ -1,0 +1,17 @@
+{
+  "name": "bombtimer-main",
+  "version": "1.0.0",
+  "description": "![Screenshot](Screenshot.jpg)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^40.6.1",
+    "electron-packager": "^17.1.2",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
