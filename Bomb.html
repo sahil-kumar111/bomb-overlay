@@ -18,10 +18,17 @@
 </html>
 
 <script>
-	 
+const fs = require('fs');
+const path = require('path');
+
+const configPath = path.join(__dirname, 'config.json');
+const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+
+var initialMinutes = config.minutes;
+var initialSeconds = config.seconds;
 	// User settings
-	var initialMinutes = 0;
-	var initialSeconds = 2;
+	// var initialMinutes = 100;
+	// var initialSeconds = 0;
 	var todayIsChristmas = true;
 	
 	// Global varibles
